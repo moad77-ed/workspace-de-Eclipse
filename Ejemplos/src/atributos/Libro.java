@@ -1,0 +1,7 @@
+package atributos;
+public class Libro {
+	public String titulo;
+	public int paginas;
+	public String autor;
+	public String genero;
+}

@@ -1,0 +1,4 @@
+1;Paula;Lozano Ramírez;02/11/2003;paulalr@gmail.com
+2;Ian;Navarro López;30/03/2006;iannl@gmai.com
+3;Pablo Andrés;Chávez Ibarra;21/08/2005;pabloci@gmail.com
+4;Isabel María;Ortega García;02/05/2006;isabelog@gmail.com
