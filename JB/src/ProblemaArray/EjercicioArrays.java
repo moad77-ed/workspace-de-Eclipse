@@ -23,8 +23,9 @@ public class EjercicioArrays {
         for(int i=0; i < control.length; i++){
             control[i] = (int)(Math.random()*11);
         }
-        //buscamos al mayor y el menor
+        //buscamos al mayor y menor
         postEval = 11;
+        
         for(int i=0; i<control.length; i++){
             int preEval = control[i];
             if (preEval < postEval){
@@ -36,7 +37,15 @@ public class EjercicioArrays {
                 postEval = control[i];
             }
         }
-
+        //buscamos al menor
+        postEval = 0;
+        for(int i=0; i<control.length; i++){
+            int preEval = control[i];
+            if (preEval > postEval){
+                maxNota = preEval;
+                postEval = control[i];
+            }
+        }
         //creamos una lista de los alumnos de la clase
         listaClase = new int[numAlumnos];
         for (int i = 0; i < numAlumnos; i++){
