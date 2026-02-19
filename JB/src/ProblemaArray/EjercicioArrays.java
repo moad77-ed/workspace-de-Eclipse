@@ -25,6 +25,8 @@ public class EjercicioArrays {
         }
         //buscamos al mayor y menor
         postEval = 11;
+        postEval = 0;
+
         
         for(int i=0; i<control.length; i++){
             int preEval = control[i];
@@ -32,20 +34,13 @@ public class EjercicioArrays {
                 minNota = preEval;
                 postEval = control[i];
             }
-            else if (preEval > postEval){
-                maxNota = preEval;
-                postEval = control[i];
-            }
-        }
-        //buscamos al menor
-        postEval = 0;
-        for(int i=0; i<control.length; i++){
-            int preEval = control[i];
             if (preEval > postEval){
                 maxNota = preEval;
                 postEval = control[i];
             }
+           
         }
+     
         //creamos una lista de los alumnos de la clase
         listaClase = new int[numAlumnos];
         for (int i = 0; i < numAlumnos; i++){
